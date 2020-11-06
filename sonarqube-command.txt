@@ -2,4 +2,4 @@ sonar-scanner \
   -Dsonar.projectKey=mentored-project \
   -Dsonar.sources=. \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=f0d561b041424c4929896a21aceeb3a2d12c4113
+  -Dsonar.login=15e1ab1b5bee2261e5e1ff82b2211b3ccb848610
