@@ -37,9 +37,13 @@ You should keep as many metrics as possible and write up reports on them in your
 You should create a Git repository that contains the code for the 4 services and any files you created to deploy your application including Dockerfiles, playbooks, reports etc.
 You are also expected to make a README.md file and to fill this README with information of this challenge. It should contain the following headers.
  
-- Why are we doing this?
-- How I expected the challenge to go.
-- What went well?
+#Why are we doing this?
+The project is to showcase all my 4 weeks learning in the Academy and it was also a good way to practise all the tools that was taught at the academy  
+ ##How I expected the challenge to go.
+ I was confident about the challenge as I have gotten better with my skills over the weeks compared to week one that I struggled with a task such as pushing to Git hub, I was able to push to Git hub without any assitance and I have a better understanding of the concept.
+ 
+ #What went well?
+
 - What didn't go as planned?
 - Possible improvements for future challenges.
   
