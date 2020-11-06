@@ -2,7 +2,8 @@ Pipeline {
         agent any
         
         stages {
-               stage(install Docker-Compose with Ansible"
+               stage{"Install Docker-Compose with Ansible"}{
+                      steps {
                stage("Build Images") {
                        steps {
                                sh "./scripts/build_images.sh"
