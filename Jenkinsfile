@@ -2,7 +2,7 @@ Pipeline {
         agent any
         
         stages {
-               stage("Install Docker-Compose with Ansible"){
+                 stage("Install Docker-Compose with Ansible"){
                       steps {
                              sh "./scripts/ansible.sh"
                       
@@ -10,17 +10,15 @@ Pipeline {
                
                
                } 
-
                stage("testing using Sonarqube"){
                       steps {
                               sh "./scripts/sonarqube.sh"
                     
                       }
-               }
-
-        
-                                   
-               stage("Build Images") {
+            
+             
+                }                      
+                stage("Build Images") {
                        steps {
                                sh "./scripts/build_images.sh"
 
@@ -28,9 +26,16 @@ Pipeline {
 
               }
               stage("Push Images") {
-                      steps {
+                     steps {
                               sh "./scripts/push_images.sh"
+                      }
+              
+              }     
+              stage("run")
+                     steps {
 
+                             sh "./scripts/run.sh"
+                 
                       }
 
               }
